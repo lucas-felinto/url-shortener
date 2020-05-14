@@ -1,0 +1,98 @@
+body {
+   margin: 0px;
+   background-color: #a598ee;
+}
+
+div.container {
+    display: flex;
+    width: 550px;
+    height: 250px;
+
+    margin-top: 150px;
+    margin-left: 360px;
+
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    background: #fff;
+
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,.15);
+    border-radius: 3px;
+
+    padding: 30px;
+}
+
+div.container .box .title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'poppins', sans-serif;
+    color: #555;
+}
+
+.urlInput, .urlOutput {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin-bottom: 20px;
+
+    align-items: center;
+}
+
+label {
+    background-color: #63c76a;
+    padding: 7px;
+    margin-right: 0;
+    color: white;
+    font-weight: bold;
+
+    height: 20px;
+
+    min-width: 85px;
+}
+
+input {
+    outline: rgba(0,0,0,.15);
+    overflow: visible;
+    width: 350px;
+    height: 28px;
+    margin: 15px 5px 15px 0;
+    color: rgba(0,0,0,.9);
+    font-size: large;
+}
+
+div.urlOutput {
+    margin-bottom: 5px;
+}
+
+button {
+    white-space: nowrap;
+    color: #fff;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+    background: #63c76a;
+    transition: all .2s ease-out,color .2s ease-out;
+    padding: 8px;
+    width: 75px;
+    height: 34px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.copied {
+    margin-top: 0;
+    
+    font-size: 19px;
+    font-weight: bold;
+    color: #a598ee;
+
+}
+
+.hidden {
+    visibility: hidden;
+}
