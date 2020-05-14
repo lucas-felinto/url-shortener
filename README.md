@@ -26,7 +26,7 @@ A small application developed to short urls. The intention of this project was i
 * Express
 * MongoDB
 
-### Dependences:
+#### Dependences:
 * Mongoose
 * Nodemon
 * ShortID
