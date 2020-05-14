@@ -18,7 +18,19 @@
 </h3>
 
 ## About
-A small application developed in NodeJS, MangoDB and Express to short urls. The intention of this project was improve my skills in NodeJS and JavaScript and learn about MongoDB.  
+A small application developed to short urls. The intention of this project was improve my skills in NodeJS and JavaScript and learn about MongoDB.
+
+## Features
+* HTML, CSS and JavaScript
+* NodeJS
+* Express
+* MongoDB
+
+### Dependences:
+* Mongoose
+* Nodemon
+* ShortID
+* Nunjucks
 
 ## Contributions
 
@@ -27,7 +39,7 @@ The application have two issues, be comfortable to colaborate with it:
 - [ ] Keep the original URL on the first input
 - [ ] Initialize the application with none value on the second input
 
-<h2> Para colaborar: </h2>
+<h2> Collaborating: </h2>
 
 * Fork the project
 * Create a new branch
