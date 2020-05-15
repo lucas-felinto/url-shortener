@@ -1,5 +1,6 @@
 const express = require('express')
 const nunjucks = require('nunjucks')
+const mongoose = require('mongoose')
 const routes = require('./routes')
 
 const app = express()
