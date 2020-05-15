@@ -1,5 +1,5 @@
 <h1 align="center">
-     Url Shortner
+     Url Shortener
  </h1>
 
 <img src="https://user-images.githubusercontent.com/62717182/81981908-539da800-9607-11ea-96a4-3d0be8672037.gif" width="1300">
