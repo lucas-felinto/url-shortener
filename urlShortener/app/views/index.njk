@@ -16,19 +16,29 @@
                 <form action="/shortUrls" method="POST" class="form">
                     <div class="urlInput">
                         <label for="fullUrl">Paste Here</label>
-                        <input type="url" name="fullUrl" id="urlReq">
+                        <input type="url" name="fullUrl" id="urlReq" value="{{url.full}}">
                         <button type="submit" class="button">GET!</button>
                     </div>
                 </form>
                 <div class="urlOutput">
                     <label for="urlRes">Take Here</label>
-                    <input type="url" name="shortUrl" class="shortUrl" value="localhost:5000/{{shortUrls[shortUrls.length - 1].short}}" class="output" id="urlRes">
+                    <input 
+                        type="url" 
+                        name="shortUrl" 
+                        class="shortUrl"
+                        {% if url and url.short %}
+                        value="localhost:5000/{{url.short}}"
+                        {% else %}
+                        value=""
+                        {% endif %}
+                        class="output" 
+                        id="urlRes">
                     <button type="submit" class="button copy">COPY</button>
                 </div>
                 <p class="copied hidden">Copied!</p>
             </div>
         </div>
     </div>
+    <script src="/scripts.js"></script>
 </body>
-
-<script src="/scripts.js"></script>
+</html>
