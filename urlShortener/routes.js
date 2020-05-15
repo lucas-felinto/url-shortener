@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const shortUrl = require('./app/models/shortUrl')
 const routes = express.Router()
 
-mongoose.connect('mongodb+srv://w-1-5-j-1-4-s:w-1-5-j-1-4-s@cluster0-9acsi.mongodb.net/shortUrls?retryWrites=true&w=majority', {
+mongoose.connect('YourConnectionUrl', {
     useNewUrlParser: true, useUnifiedTopology: true
 })
 
