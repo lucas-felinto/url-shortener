@@ -3,20 +3,29 @@ const mongoose = require('mongoose')
 const shortUrl = require('./app/models/shortUrl')
 const routes = express.Router()
 
-mongoose.connect('mongodb://localhost/shortUrls', {
+mongoose.connect('YourConnectionUrl', {
     useNewUrlParser: true, useUnifiedTopology: true
-}) 
-
-routes.get("/", async function (req, res) {
-    const shortUrls = await shortUrl.find()
-    return res.render("index", { shortUrls })
 })
 
+let lastUrl = ''
+
+routes.get("/", async function (req, res) {
+    const url = await shortUrl.findOne({ full: lastUrl })
+    lastUrl = ''
+    return res.render("index", { url })
+})
 
 routes.post("/shortUrls", async function (req, res) {
-    await shortUrl.create({ full: req.body.fullUrl })
+    lastUrl = req.body.fullUrl
+    const alreadyExist = await shortUrl.findOne({ full: lastUrl })
+
+    let results = null
+    if(!alreadyExist)
+        results = await shortUrl.create({ full: lastUrl })
+
+    if(results) lastUrl = results.full
     
-    return res.redirect('/')
+    return res.redirect("/")
 })
 
 routes.get("/:shortUrl", async function (req,res) {
