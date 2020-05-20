@@ -17,10 +17,10 @@
  <a href="#about">About</a> | <a href="#contributions">Contributions</a> | <a href="#initializing">Initializing</a> | <a href="#license">License</a> 
 </h3>
 
-## About
+## About 📝
 A small application developed to short urls. The intention of this project was improve my skills in NodeJS and JavaScript and learn about MongoDB.
 
-## Features
+## Features 📌
 * HTML, CSS and JavaScript
 * NodeJS
 * Express
@@ -32,7 +32,7 @@ A small application developed to short urls. The intention of this project was i
 * ShortID
 * Nunjucks
 
-## Contributions
+## Contributions ✏
 
 - [X] Keep the original URL on the first input - Solved by <a href="https://github.com/wejesuss"> ```@wejesuss``` <a>
 - [X] Initialize the application with none value on the second input - Solved by <a href="https://github.com/wejesuss"> ```@wejesuss``` <a>
@@ -45,7 +45,7 @@ A small application developed to short urls. The intention of this project was i
 * Push to the branch
 * Open's Pull Request
 
-## Initializing
+## Initializing ⚙
 
 <b>Clonaning the repository:</b>
 - ```$ git clone https://github.com/lucas-felinto/myBooks.git```
