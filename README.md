@@ -37,7 +37,7 @@ A small application developed to short urls. The intention of this project was i
 - [X] Keep the original URL on the first input - Solved by <a href="https://github.com/wejesuss"> ```@wejesuss``` <a>
 - [X] Initialize the application with none value on the second input - Solved by <a href="https://github.com/wejesuss"> ```@wejesuss``` <a>
 
-<h2> Collaborating: </h2>
+### Collaborating:
 
 * Fork the project
 * Create a new branch
