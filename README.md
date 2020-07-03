@@ -13,18 +13,20 @@
   </a>
 </p>
 
-<h3 align="center">
- <a href="#about">About</a> | <a href="#contributions">Contributions</a> | <a href="#initializing">Initializing</a> | <a href="#license">License</a> 
-</h3>
+<h4 align="center">
+ <a href="#information_source-about">About</a> | <a href="#rocket-Features">Features</a>  | <a href="#link-contributions">Contributions</a> | <a href="#beginner-initializing">Initializing</a> | <a href="#license">License</a> 
+</h4>
 
-## About 📝
+## :information_source: About
 A small application developed to short urls. The intention of this project was improve my skills in NodeJS and JavaScript and learn about MongoDB.
 
-## Features 📌
-* HTML, CSS and JavaScript
-* NodeJS
-* Express
-* MongoDB
+## :rocket: Features
+- [Node.js](https://nodejs.org/)
+- [Nunjucks](https://mozilla.github.io/nunjucks/)
+- [JavaScript](https://www.javascript.com/)
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [MongoDB](https://www.mongodb.com/)
 
 #### Dependences:
 * Mongoose
@@ -32,7 +34,7 @@ A small application developed to short urls. The intention of this project was i
 * ShortID
 * Nunjucks
 
-## Contributions ✏
+## :link: Contributions
 
 - [X] Keep the original URL on the first input - Solved by <a href="https://github.com/wejesuss"> ```@wejesuss``` <a>
 - [X] Initialize the application with none value on the second input - Solved by <a href="https://github.com/wejesuss"> ```@wejesuss``` <a>
@@ -45,7 +47,7 @@ A small application developed to short urls. The intention of this project was i
 * Push to the branch
 * Open's Pull Request
 
-## Initializing ⚙
+## :beginner: Initializing
 
 <b>Clonaning the repository:</b>
 - ```$ git clone https://github.com/lucas-felinto/myBooks.git```
